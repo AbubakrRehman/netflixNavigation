@@ -31,18 +31,69 @@ body {
     top: 10px;
 }
 
-.nav{
+.nav {
     position: fixed;
     left: 0;
     top: 0;
-    background-color: aqua;
-    border: 2px solid red;
     height: 100vh;
-    width:400px;
-   transform: translateX(-100%);
+    width: 400px;
+    transform: translateX(-100%);
 }
 
-.visible{
+.nav.visible {
     transform: translateX(0);
 }
 
+
+.nav__black {
+    background-color: black;
+    width: 30%;
+    max-width: 680px;
+    min-width: 320px;
+}
+
+.nav__red {
+    background-color: red;
+    width: 95%;
+}
+
+.nav__white {
+    background-color: white;
+    width: 95%;
+    position: relative;
+}
+
+
+.logo {
+    width: 100px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.list {
+    font-size: 1.5rem;
+    list-style: none;
+
+
+}
+
+
+.list li {
+    margin: 10px;
+}
+
+.list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.nav__close {
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
