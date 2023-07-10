@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://kit.fontawesome.com/1e90efc44f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Netflix Mobile Navigation</title>
 </head>
 
 <body>
+    <div class="container">
+        <button class="nav__btn nav__open"><i class="fa-solid fa-bars"></i></button>
+        <div class="nav nav__black visible">
+            <div class="nav nav__red visible">
+                <div class="nav nav__white visible">
+                    <button class="nav__btn nav__close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
 
+                    <ul class="list">
+                        <li><a href="">Teams</a></li>
+                        <li><a href="">Location</a></li>
+                        <li><a href="">Life at Netflix</a></li>
+                        <li>
+                            <ul>
+                                <li><a href="">Netflix culture memo</a></li>
+                                <li><a href="">Work life balance</a></li>
+                                <li><a href="">Inclusion and Diversity</a></li>
+                                <li><a href="">Netflix culture memo</a></li>
+                                <li><a href="">Blog</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="index.js"></script>
 
